@@ -1,6 +1,6 @@
 export async function GET() {
   try {
-    const response = await fetch("https://fakestoreapi.com/products");
+    const response = await fetch("https://fakestoreapi.com/products",);
     const products = await response.json();
 
     return new Response(

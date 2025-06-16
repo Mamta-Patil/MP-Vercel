@@ -1,0 +1,7 @@
+{
+    "functions": {
+        "api/cron-task.js": {
+            "schedule": "*/1 * * * *"
+        }
+    }
+}
